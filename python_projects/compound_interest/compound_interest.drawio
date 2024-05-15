@@ -1,0 +1,70 @@
+<mxfile host="Electron" modified="2024-05-03T02:01:06.078Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="6-8t9UxpQBax9eq2gpje" version="24.2.5" type="device">
+  <diagram name="Page-1" id="6ASWUJbFvLEGHsiecVGE">
+    <mxGraphModel dx="1434" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-1" value="asset" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="80" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-2" value="+ name: string&lt;div&gt;+ symbol: string&lt;/div&gt;&lt;div&gt;+ market: list&lt;/div&gt;&lt;div&gt;+ price: float&lt;/div&gt;&lt;div&gt;+ quantity: number&lt;/div&gt;&lt;div&gt;+ variation: number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-1">
+          <mxGeometry y="26" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-1">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-4" value="+ buy(quantity_to_buy: int,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ sell(quantity_to_sell: int,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ update_price(new_price: float)&lt;/div&gt;&lt;div&gt;+ get_total_value(): float&lt;/div&gt;&lt;div&gt;+ get_profit_loss(): float&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-1">
+          <mxGeometry y="138" width="190" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-5" value="stock" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-6" value="+ company_name: string&lt;div&gt;+ symbol: string&lt;/div&gt;&lt;div&gt;+ market: list&lt;/div&gt;&lt;div&gt;+ price: float&lt;/div&gt;&lt;div&gt;+ quantity: number&lt;/div&gt;&lt;div&gt;+ variation: number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-5">
+          <mxGeometry y="26" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-5">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-8" value="+ buy(quantity_to_buy: int,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ sell(quantity_to_sell: int,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ update_price(new_price: float)&lt;/div&gt;&lt;div&gt;+ get_total_value(): float&lt;/div&gt;&lt;div&gt;+ get_profit_loss(): float&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-5">
+          <mxGeometry y="138" width="190" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-9" value="fic" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-10" value="+ company_name: string&lt;div&gt;+ symbol: string&lt;/div&gt;&lt;div&gt;+ market: list&lt;/div&gt;&lt;div&gt;+ price: float&lt;/div&gt;&lt;div&gt;+ quantity: number&lt;/div&gt;&lt;div&gt;+ variation: number&lt;/div&gt;&lt;div&gt;+ annual_comission: float&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-9">
+          <mxGeometry y="26" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-9">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-12" value="+ buy(quantity_to_buy: int,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ sell(quantity_to_sell: int,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ update_price(new_price: float)&lt;/div&gt;&lt;div&gt;+ get_total_value(): float&lt;/div&gt;&lt;div&gt;+ get_profit_loss(): float&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-9">
+          <mxGeometry y="138" width="190" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-13" value="crypto" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-14" value="+ crypto_name: string&lt;div&gt;+ symbol: string&lt;/div&gt;&lt;div&gt;+ market: list&lt;/div&gt;&lt;div&gt;+ price: float&lt;/div&gt;&lt;div&gt;+ quantity: number&lt;/div&gt;&lt;div&gt;+ variation: number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-13">
+          <mxGeometry y="26" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-13">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-16" value="+ buy(quantity_to_buy: int,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ sell(quantity_to_sell: int,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ update_price(new_price: float)&lt;/div&gt;&lt;div&gt;+ get_total_value(): float&lt;/div&gt;&lt;div&gt;+ get_profit_loss(): float&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-13">
+          <mxGeometry y="138" width="190" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-17" value="cdt" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="440" width="190" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-18" value="+ nombre: string&lt;div&gt;+ banco: string&lt;/div&gt;&lt;div&gt;+ interest_rate: float&lt;/div&gt;&lt;div&gt;+ price: float&lt;/div&gt;&lt;div&gt;+ quantity: number&lt;/div&gt;&lt;div&gt;+ variation: number&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-17">
+          <mxGeometry y="26" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-17">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="mlgFgm3ZJo_Xt7AmdiC_-20" value="+ buy(quantity_to_buy: int,&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ sell(quantity_to_sell: int,&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;price_per_share: float)&lt;/div&gt;&lt;div&gt;+ update_price(new_price: float)&lt;/div&gt;&lt;div&gt;+ get_total_value(): float&lt;/div&gt;&lt;div&gt;+ get_profit_loss(): float&lt;br&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="mlgFgm3ZJo_Xt7AmdiC_-17">
+          <mxGeometry y="138" width="190" height="122" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
